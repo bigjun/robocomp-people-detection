@@ -1,0 +1,20 @@
+<AGMModel>
+
+<symbol id="1" type="robot"/>
+<symbol id="3" type="robotState"/>
+<symbol id="2" type="homePoint"/>
+<symbol id="5" type="personPosition"/>
+<symbol id="4" type="person"/>
+
+
+<link src="1" dst="4" label="found">
+	<linkAttribute key="th" value="0" />
+	<linkAttribute key="x" value="2500" />
+	<linkAttribute key="y" value="-4700" />
+</link>
+<link src="1" dst="2" label="no"/>
+<link src="1" dst="5" label="reached"/>
+<link src="1" dst="3" label="stopped"/>
+<link src="1" dst="4" label="detected"/>
+
+</AGMModel>

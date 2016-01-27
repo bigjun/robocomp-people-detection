@@ -1,0 +1,13 @@
+import "/home/robocomp/robocomp/interfaces/IDSLs/AriaNavigation.idsl";
+import "/home/robocomp/robocomp/interfaces/IDSLs/AriaMapInformation.idsl";
+
+Component ariaNavigation
+{
+	Communications
+	{
+		implements AriaNavigation;
+		publishes AriaMapInformation;
+	};
+	language Cpp;
+};
+

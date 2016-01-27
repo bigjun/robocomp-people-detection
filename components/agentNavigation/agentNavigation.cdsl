@@ -1,0 +1,16 @@
+import "/home/robocomp/robocomp/interfaces/IDSLs/AriaNavigation.idsl";
+import "/home/robocomp/robocomp/interfaces/IDSLs/AriaMapInformation.idsl";
+
+Component agentNavigation
+{
+	Communications
+	{
+		requires AriaNavigation;
+		subscribesTo AriaMapInformation;
+	};
+	language Cpp;
+	gui Qt(QWidget);
+	
+	options agmagent;
+};
+

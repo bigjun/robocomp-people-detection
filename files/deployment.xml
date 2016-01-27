@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rcmanager>
+
+ <generalInformation>
+  <editor path="gedit" dock="false" />
+  <timeouts fixed="1000.0" blink="300.0" />
+  <clicks switch="2.0" interval="400.0" />
+  <graph alpha="80.0" active="true" scale="200.0" />
+  <graphTiming idletime="1000.0" focustime="500.0" fasttime="10.0" fastperiod="2000.0" />
+  <simulation hookes="0.07" springlength="0.5" friction="0.4" step="0.5" fieldforce="20000.0" />
+ </generalInformation>
+
+ <node alias="executive" endpoint="agmexecutive:tcp -h localhost -p 40003">
+  <dependence alias="agentNavigation" />
+  <dependence alias="IS" />
+  <dependence alias="agentNavigation" />
+  <dependence alias="agentVelodyne" />
+  <dependence alias="agentDP" />
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost AGMExecutive /home/robocomp/AGM/tools/AGMExecutive_robocomp python AGMExecutive_robocomp.py --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/executive.conf" />
+  <downCommand command="pkill -9 -f AGMExecutive_robocomp.py" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/executive.conf" />
+  <xpos value="71.2124928428" />
+  <ypos value="-93.2312256157" />
+  <radius value="10.0" />
+  <color value="#0000AA" />
+ </node>
+
+ <node alias="IS" endpoint="IceStorm/TopicManager:default -h localhost -p 9999">
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost IS /home/robocomp/robocomp/components/robocomp-people-detection/files/ icebox --Ice.Config=icebox.conf" />
+  <downCommand command="killall -9 icebox" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/icebox.conf" />
+  <xpos value="300.030495417" />
+  <ypos value="-93.2312256157" />
+  <radius value="10.0" />
+  <color value="#FF3333" />
+ </node>
+
+ <node alias="mission" endpoint="commonbehavior:tcp -h localhost -p 35009">
+  <dependence alias="executive" />
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost mission /home/robocomp/ agmmission --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/mission.conf" />
+  <downCommand command="killall -9 agmmission" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/mission.conf" />
+  <xpos value="71.2124928428" />
+  <ypos value="-188.830565977" />
+  <radius value="10.0" />
+  <color value="#FFFFFF" />
+ </node>
+
+ <node alias="agentNavigation" endpoint="agmcommonbehavior:tcp -h localhost -p 35004">
+  <dependence alias="AriaNavigation" />
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost agentNavigation /home/robocomp/robocomp/components/robocomp-people-detection/components/agentNavigation ./bin/agentNavigation --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/agentNavigation.conf" />
+  <downCommand command="killall -9 agentNavigation" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/agentNavigation.conf" />
+  <xpos value="180.9023063784" />
+  <ypos value="-32.9155608469" />
+  <radius value="10.0" />
+  <color value="#FFFF00" />
+ </node>
+
+ 
+ <node alias="agentDP" endpoint="agmcommonbehavior:tcp -h localhost -p 35333">
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost agentDP /home/robocomp/robocomp/components/robocomp-people-detection/components/agentDP/bin ./agentdpComp --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/agentDP.conf" />
+  <downCommand command="killall -9 agentdpComp" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/agentDP.conf" />
+  <xpos value="-80.9023063784" />
+  <ypos value="-32.9155608469" />
+  <radius value="10.0" />
+  <color value="#FFFF00" />
+ </node>
+ 
+ <node alias="agentVelodyne" endpoint="agmcommonbehavior:tcp -h localhost -p 35003">
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost agentVelodyne /home/robocomp/robocomp/components/robocomp-people-detection/components/agentVelodyne ./bin/agentVelodyne --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/agentVelodyne.conf" />
+  <downCommand command="killall -9 agentVelodyne" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/agentVelodyne.conf" />
+  <xpos value="480.9023063784" />
+  <ypos value="-32.9155608469" />
+  <radius value="10.0" />
+  <color value="#FFFF00" />
+ </node>
+ 
+ <node alias="AriaNavigation" endpoint="commonbehavior:tcp -h localhost -p 35007">
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost ariaNavigation /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/bin ./ariaNavigation --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/ariaNavigation.conf" />
+  <downCommand command="killall -9 ariaNavigation" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/ariaNavigation.conf" />
+  <xpos value="180.9023063784" />
+  <ypos value="60.9155608469" />
+  <radius value="10.0" />
+  <color value="#FFFF00" />
+ </node>
+ 
+ <node alias="VelodyneDataManager" endpoint="commonbehavior:tcp -h localhost -p 35005">
+  <dependence alias="agentVelodyne" />
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost velodyneDataManager /home/robocomp/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/bin ./velodyneDataManager --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/velodyneDataManager.conf" />
+  <downCommand command="killall -9 velodyneDataManager" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/velodyneDataManager.conf" />
+  <xpos value="480.9023063784" />
+  <ypos value="60.9155608469" />
+  <radius value="10.0" />
+  <color value="#FFFF00" />
+ </node>
+ 
+ <node alias="personDetector" endpoint="commonbehavior:tcp -h localhost -p 12121">
+  <dependence alias="agentDP" />
+  <workingDir path="/home/robocomp/" />
+  <upCommand command="rcremote localhost personDetector /home/robocomp/robocomp/components/robocomp-people-detection/components/detectPersonComp ./bin/detectPerson --Ice.Config=/home/robocomp/robocomp/components/robocomp-people-detection/files/detectPerson.conf" />
+  <downCommand command="killall -9 detectPerson" />
+  <configFile path="gedit /home/robocomp/robocomp/components/robocomp-people-detection/files/detectPerson.conf" />
+  <xpos value="-80.9023063784" />
+  <ypos value="60.9155608469" />
+  <radius value="10.0" />
+  <color value="#FFFF00" />
+ </node>
+
+</rcmanager>

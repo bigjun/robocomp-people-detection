@@ -1,0 +1,15 @@
+import "/robocomp/interfaces/IDSLs/VelodyneData.idsl";
+
+Component agentVelodyne
+{
+	Communications
+	{
+		subscribesTo VelodyneData;
+	};
+	
+	language Cpp;
+	gui Qt(QWidget);
+	
+	options agmagent;
+};
+

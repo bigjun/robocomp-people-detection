@@ -1,0 +1,22 @@
+<AGMModel>
+	<symbol id="1" type="robot">
+	</symbol>
+	<symbol id="2" type="homePoint">
+	</symbol>
+	<symbol id="3" type="robotState">
+	</symbol>
+	<symbol id="4" type="person">
+	</symbol>
+	<symbol id="pp" type="personPosition">
+	</symbol>
+	<link src="1" dst="2" label="yes">
+  </link>
+  <link src="1" dst="3" label="stopped">
+  </link>
+  <link src="1" dst="4" label="detected">
+  </link>
+  <link src="1" dst="4" label="found">
+  </link>
+  <link src="1" dst="pp" label="reached">
+  </link>
+</AGMModel>

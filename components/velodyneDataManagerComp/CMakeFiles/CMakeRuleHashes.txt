@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+5a0a6b245a58e71a6058cb4bf427393c src/CommonBehavior.cpp
+bd3341b42c4901656d3f82209e277a39 src/VelodyneData.cpp
+1e60ed7e89924fbd24946230c0ed79ba src/moc_commonbehaviorI.cxx
+a3d4b2a29d64d615fdb85a381738a4a9 src/moc_genericmonitor.cxx
+861ba1cf4bcc6bb64b2fdb0df7005605 src/moc_genericworker.cxx
+61c5f22df9fcdb173ebe0f05debba751 src/moc_specificmonitor.cxx
+eb194e2d630b55fd6ba36df19d3ca413 src/moc_specificworker.cxx
+5698c3aca70dc90aef36c28d11bda2dc src/ui_mainUI.h

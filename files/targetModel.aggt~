@@ -1,0 +1,15 @@
+{
+	1:robot(1,1)
+	2:homePoint(1,1)
+	3:robotState(1,1)
+	4:person(1,1)
+	pp:personPosition(1,1)
+	1->2(yes)
+	1->3(stopped)
+	1->4(detected)
+	1->4(found)
+	1->pp(reached)
+}
+precondition
+{
+}

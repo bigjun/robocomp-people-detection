@@ -1,0 +1,11 @@
+import "/robocomp/interfaces/IDSLs/PeopleDetection.idsl";
+
+Component detectPerson
+{
+	Communications
+	{
+		publishes PeopleDetection;
+	};
+	language Cpp;
+};
+

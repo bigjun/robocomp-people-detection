@@ -1,0 +1,192 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec533703484/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec533703484.dir/build.make CMakeFiles/cmTryCompileExec533703484.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec533703484.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec533703484.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec533703484.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec533703484/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec531129089/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec531129089.dir/build.make CMakeFiles/cmTryCompileExec531129089.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec531129089.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec531129089.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec531129089.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec531129089/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3328288699/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3328288699.dir/build.make CMakeFiles/cmTryCompileExec3328288699.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3328288699.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3328288699.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3328288699.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec3328288699/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec662983370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec662983370.dir/build.make CMakeFiles/cmTryCompileExec662983370.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec662983370.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec662983370.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec662983370.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec662983370/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3176060749/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3176060749.dir/build.make CMakeFiles/cmTryCompileExec3176060749.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3176060749.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3176060749.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3176060749.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec3176060749/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2603478920/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2603478920.dir/build.make CMakeFiles/cmTryCompileExec2603478920.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2603478920.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2603478920.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2603478920.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2603478920/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/velodyneDataManagerComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,28 @@
+INCLUDE_DIRECTORIES(
+	/usr/local/Aria/include
+	/usr/local/Aria/ArNetworking/include
+)
+
+
+# Sources set
+SET ( SOURCES
+  specificworker.cpp
+  specificmonitor.cpp
+#  $ENV{ROBOCOMP}/classes/agmInner/agmInner.cpp
+)
+
+# Headers set
+SET ( HEADERS
+  specificworker.h
+  specificmonitor.h
+#  $ENV{ROBOCOMP}/classes/agmInner/agmInner.h
+)
+
+SET ( LIBS
+	${LIBS} -L/usr/local/Aria/lib Aria ArNetworking
+)
+
+INCLUDE($ENV{ROBOCOMP}/cmake/modules/ipp.cmake)
+
+ADD_DEFINITIONS( -std=c++11 )
+

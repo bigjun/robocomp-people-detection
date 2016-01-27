@@ -1,0 +1,46 @@
+#
+# P R O V I D E D    E N D P O I N T S
+AGMExecutive.Endpoints=tcp -p 40003
+AGMCommonBehavior.Endpoints=tcp -p 35008
+AGMAgentTopic.Endpoints=tcp -p 40004
+
+# R E M O T E    P R O X I E S
+IceStormProxy = IceStorm/TopicManager:tcp -h localhost -p 9999
+
+# A G M   -   F i l e   p a t h s
+AGGLPath = /home/robocomp/robocomp/components/robocomp-people-detection/files/domain.aggl
+InitialModelPath = /home/robocomp/robocomp/components/robocomp-people-detection/files/initialModel.xml
+InitialMissionPath = /home/robocomp/robocomp/components/robocomp-people-detection/files/targetModel.aggt
+
+
+# A G E N T S
+AGENTS = agentNavigation, agentVelodyne #, agentDP
+#agentSR = agmcommonbehavior:tcp -h localhost -p 35002
+agentNavigation = agmcommonbehavior:tcp -h localhost -p 35004
+agentVelodyne = agmcommonbehavior:tcp -h localhost -p 35004
+#AGENTS = agent1,agent2,...
+#agent1 = topicName1:tcp -h localhost -p port1
+#agent2 = topicName2:tcp -h localhost -p port2
+
+
+WriteAcceptedModels=True
+
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+
+Ice.ACM.Client=10
+Ice.ACM.Server=10
+
+Ice.ThreadPool.Client.Size=50
+Ice.ThreadPool.Server.Size=50
+
+
+
+Ice.Default.Timeout=1000
+Ice.Override.ConnectTimeout=1000
+Ice.Override.CloseTimeout=1000
+Ice.Override.Timeout=1000
+
+

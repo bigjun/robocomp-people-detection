@@ -1,0 +1,1 @@
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/src/CMakeFiles/ariaNavigation.dir

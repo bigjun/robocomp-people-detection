@@ -1,0 +1,19 @@
+#cuda_add_executable (detectPerson src/specificworker.cpp)
+#target_link_libraries (detectPerson ${PCL_LIBRARIES})
+
+# Sources set
+SET ( SOURCES
+  specificworker.cpp
+  specificmonitor.cpp
+)
+
+# Headers set
+SET ( HEADERS
+  specificworker.h
+  specificmonitor.h
+)
+
+INCLUDE($ENV{ROBOCOMP}/cmake/modules/ipp.cmake)
+
+ADD_DEFINITIONS( -std=c++11 )
+

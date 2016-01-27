@@ -1,0 +1,171 @@
+spacePattern=3
+lineThickness=2
+fontName=Arial
+name=domain
+vertexDiameter=40
+shortPattern=1
+nodeThickness=2
+fontSize=14
+longPattern=3
+===
+findPerson : active(1)
+{
+	{
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(yes)
+		robot->person(notFound)
+		robot->robotState(stopped)
+	}
+	=>
+	{
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(yes)
+		robot->person(found)
+		robot->robotState(stopped)
+	}
+}
+
+goToPerson : active(1)
+{
+	{
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(yes)
+		robot->person(found)
+		robot->robotState(stopped)
+	}
+	=>
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(found)
+		robot->robotState(moving)
+		robot->personPosition(going)
+	}
+}
+
+reachPerson : active(1)
+{
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(found)
+		robot->robotState(moving)
+		robot->personPosition(going)
+	}
+	=>
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(found)
+		robot->robotState(stopped)
+		robot->personPosition(reached)
+	}
+}
+
+detectPerson : active(1)
+{
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(found)
+		robot->robotState(stopped)
+		robot->personPosition(reached)
+	}
+	=>
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(detected)
+		robot->robotState(stopped)
+		robot->personPosition(reached)
+		robot->person(found)
+	}
+}
+
+goToHome : active(1)
+{
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(detected)
+		robot->robotState(stopped)
+		robot->personPosition(reached)
+		robot->person(found)
+	}
+	=>
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(detected)
+		robot->robotState(moving)
+		robot->personPosition(reached)
+		robot->person(found)
+	}
+}
+
+reachHome : active(1)
+{
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(no)
+		robot->person(detected)
+		robot->robotState(moving)
+		robot->personPosition(reached)
+		robot->person(found)
+	}
+	=>
+	{
+		personPosition:personPosition(395,-75)
+		person:person(165,50)
+		homePoint:homePoint(-115,-10)
+		robotState:robotState(-115,-115)
+		robot:robot(165,-75)
+		robot->homePoint(sleeping)
+		robot->person(detected)
+		robot->robotState(stopped)
+		robot->personPosition(reached)
+		robot->person(found)
+	}
+}
+

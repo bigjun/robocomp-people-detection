@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+007f55e6b73b04b8a108f1cd1906efad src/CommonBehavior.cpp
+22cc15d8cb7f9134789280b8a0f13305 src/PeopleDetection.cpp
+27fe199c98d9922db32554dad00d4ef4 src/moc_commonbehaviorI.cxx
+2da628cf93016419e38c90085217b47d src/moc_genericmonitor.cxx
+0ab9e4a2bf139521ce433227ef46befa src/moc_genericworker.cxx
+5295382b160abf69a8dfc50d7e418ebe src/moc_specificmonitor.cxx
+3d84151f37ba5b93218dc6f35cc224fc src/moc_specificworker.cxx

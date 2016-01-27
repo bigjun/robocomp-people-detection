@@ -1,0 +1,288 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec585036494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec585036494.dir/build.make CMakeFiles/cmTryCompileExec585036494.dir/build
+make[1]: se ingresa al directorio «/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec585036494.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec585036494.dir/CheckSymbolExists.cxx.o -c /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec585036494.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec585036494/fast] Error 2
+
+File /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3535913646/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3535913646.dir/build.make CMakeFiles/cmTryCompileExec3535913646.dir/build
+make[1]: se ingresa al directorio «/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3535913646.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3535913646.dir/CheckSymbolExists.cxx.o -c /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3535913646.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec3535913646/fast] Error 2
+
+File /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1489389528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1489389528.dir/build.make CMakeFiles/cmTryCompileExec1489389528.dir/build
+make[1]: se ingresa al directorio «/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1489389528.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1489389528.dir/CheckSymbolExists.cxx.o -c /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1489389528.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1489389528/fast] Error 2
+
+File /home/nuc1/robocomp/components/robocomp-SIMD/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec436080860/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec436080860.dir/build.make CMakeFiles/cmTryCompileExec436080860.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec436080860.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec436080860.dir/CheckSymbolExists.cxx.o -c /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec436080860.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec436080860/fast] Error 2
+
+File /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2371800924/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2371800924.dir/build.make CMakeFiles/cmTryCompileExec2371800924.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2371800924.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2371800924.dir/CheckSymbolExists.cxx.o -c /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2371800924.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2371800924/fast] Error 2
+
+File /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1953857951/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1953857951.dir/build.make CMakeFiles/cmTryCompileExec1953857951.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1953857951.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1953857951.dir/CheckSymbolExists.cxx.o -c /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1953857951.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1953857951/fast] Error 2
+
+File /home/robocomp/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2433621171/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2433621171.dir/build.make CMakeFiles/cmTryCompileExec2433621171.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2433621171.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2433621171.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2433621171.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2433621171/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4125506232/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4125506232.dir/build.make CMakeFiles/cmTryCompileExec4125506232.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4125506232.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4125506232.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec4125506232.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec4125506232/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2419300447/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2419300447.dir/build.make CMakeFiles/cmTryCompileExec2419300447.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2419300447.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2419300447.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2419300447.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2419300447/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/ARIANavigationComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

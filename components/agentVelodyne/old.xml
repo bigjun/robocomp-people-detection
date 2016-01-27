@@ -1,0 +1,13 @@
+<AGMModel>
+
+<symbol id="1" type="robot"/>
+<symbol id="3" type="robotState"/>
+<symbol id="2" type="homePoint"/>
+<symbol id="4" type="person"/>
+
+
+<link src="1" dst="2" label="yes"/>
+<link src="1" dst="3" label="stopped"/>
+<link src="1" dst="4" label="notFound"/>
+
+</AGMModel>

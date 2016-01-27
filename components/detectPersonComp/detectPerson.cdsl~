@@ -1,0 +1,13 @@
+import "/robocomp/interfaces/IDSLs/SpeechUnderstanding.idsl";
+import "/robocomp/interfaces/IDSLs/TranscriptionRecognition.idsl";
+
+Component understanding
+{
+	Communications
+	{
+		subscribesTo TranscriptionRecognition;
+		publishes SpeechUnderstanding;
+	};
+	language Cpp;
+};
+

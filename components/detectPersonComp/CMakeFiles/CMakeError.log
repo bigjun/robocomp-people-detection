@@ -1,0 +1,288 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2898753835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2898753835.dir/build.make CMakeFiles/cmTryCompileExec2898753835.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2898753835.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2898753835.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2898753835.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2898753835/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1386584022/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1386584022.dir/build.make CMakeFiles/cmTryCompileExec1386584022.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1386584022.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1386584022.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1386584022.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1386584022/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3435073269/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3435073269.dir/build.make CMakeFiles/cmTryCompileExec3435073269.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3435073269.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3435073269.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3435073269.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec3435073269/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1020929461/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1020929461.dir/build.make CMakeFiles/cmTryCompileExec1020929461.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1020929461.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1020929461.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1020929461.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1020929461/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2223429136/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2223429136.dir/build.make CMakeFiles/cmTryCompileExec2223429136.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2223429136.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2223429136.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2223429136.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2223429136/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec914721878/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec914721878.dir/build.make CMakeFiles/cmTryCompileExec914721878.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec914721878.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec914721878.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec914721878.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec914721878/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1146932722/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1146932722.dir/build.make CMakeFiles/cmTryCompileExec1146932722.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1146932722.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1146932722.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1146932722.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1146932722/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1082871645/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1082871645.dir/build.make CMakeFiles/cmTryCompileExec1082871645.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1082871645.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1082871645.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1082871645.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1082871645/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2019041439/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2019041439.dir/build.make CMakeFiles/cmTryCompileExec2019041439.dir/build
+make[1]: se ingresa al directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2019041439.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2019041439.dir/CheckSymbolExists.cxx.o -c /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2019041439.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2019041439/fast] Error 2
+
+File /home/dmedina/robocomp/components/robocomp-people-detection/components/detectPersonComp/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,12 @@
+import "/robocomp/interfaces/IDSLs/VelodyneData.idsl";
+
+Component velodyneDataManager
+{
+	Communications
+	{
+		publishes topicToPublish;
+	};
+	language Cpp;
+	gui Qt(QWidget);
+};
+

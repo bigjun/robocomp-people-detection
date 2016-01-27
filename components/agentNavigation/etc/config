@@ -1,0 +1,20 @@
+CommonBehavior.Endpoints=tcp -p 35003 #35677
+
+# Endpoints for implemented interfaces
+AGMCommonBehavior.Endpoints=tcp -p 35004 #10335
+
+# Endpoints for subscriptions
+AGMExecutiveTopicTopic.Endpoints=tcp -p 40002 #46516
+AriaMapInformationTopic.Endpoints=tcp -p 12004 #19636
+
+# Proxies for required interfaces
+AriaNavigationProxy = arianavigation:tcp -h localhost -p 12005 #19635
+
+# This property is used by the clients to connect to IceStorm.
+TopicManager.Proxy=IceStorm/TopicManager:default -p 9999
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+Ice.ACM.Client=10
+Ice.ACM.Server=10
